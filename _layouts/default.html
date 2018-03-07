@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    {{ content }}
+    {% include footer.html %}
+    <script src="https://www.pathlms.com/path-embeds.js"></script>
+    <script>
+      window.addEventListener('load', function () {
+        window.pathEmbeds = new PathEmbeds({
+          pathAccountSlug: 'eonetwork',
+          pathUrlParamName: 'pathPage',
+          hideIframeBorder: true,
+          iframeContainerId: 'path-iframe-container', 
+          iframeBaseSrc: '/courses',
+          useBreadcrumbs: false,
+          useTransparentBackground: true,
+          useContainerHeader: false,
+          useBanners: false,
+          useContainerBorders: false
+        });
+      });
+    </script>
+    <script src="{{ site.baseurl }}/javascript/jquery-1.11.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>

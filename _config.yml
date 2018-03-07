@@ -1,0 +1,15 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: EO Virtual Learning
+description: We understand entrepreneurs like you are busy and often cannot find the time to travel to an EO event. This is where EO’s Virtual Learning can bridge that gap, providing live and on-demand learning from the comfort of your home, office or even on the road. Members now have an opportunity to learn and grow with transformational EO content from anywhere around the world. Tap into live streams from our EO Global Universities, attend a webinar or discover valuable content in our on-demand library to build a global entrepreneurial experience like none other.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://eo.pathlms.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
