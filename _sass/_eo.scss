@@ -27,7 +27,15 @@ h1.logo {
   list-style-type: none;
   text-align: right;
   margin-bottom: 0;
-  a.login {
+  max-height: 84px;
+  li {
+    display: inline-block;
+    margin-right: -3px;
+  }
+  i {
+    font-size: 20px;
+  }
+  a {
     color: #000;
     font-size: 14px;
     padding-top: 32px;
@@ -37,11 +45,14 @@ h1.logo {
     display: inline-block;
     text-decoration: none;
     font-weight: 300;
-    background-color: #f0f0f0;
     -webkit-transition: background-color 0.15s ease-in-out;
     -moz-transition: background-color 0.15s ease-in-out;
     -o-transition: background-color 0.15s ease-in-out;
     transition: background-color 0.15s ease-in-out;
+    &.user {
+      background-color: #f0f0f0;
+      margin-left: -3px;
+    }
     &:hover, &:active {
       background-color: #e05b18;
       color: #fff;

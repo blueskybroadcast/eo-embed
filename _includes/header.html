@@ -11,9 +11,23 @@
       <div class="col-sm-12 col-md-6">
         <ul class="header-nav path-nav-bar" style="visibility: hidden;">
           <li>
-            <a class="login" href="javascript:pathEmbeds.navigateTo('/profile')">
-              <span class="path-logged-out"><i class="fa fa-user"></i> MEMBER LOGIN</span>
-              <span class="path-logged-in"><i class="fa fa-user"></i> LOGOUT</span>
+            <a href="javascript:pathEmbeds.navigateTo('/searches')">
+              <i class="fa fa-search"></i> SEARCH
+            </a>
+          </li>
+          <li>
+            <a class="path-logged-in" href="javascript:pathEmbeds.navigateTo('/profile')">
+              <i class="fa fa-user"></i> PROFILE
+            </a>
+          </li>
+          <li>
+            <a class="user path-logged-out" href="javascript:pathEmbeds.navigateTo('/profile')">
+              <i class="fa fa-user"></i> MEMBER LOGIN
+            </a>
+          </li>
+          <li>
+            <a class="user path-logged-in" href="javascript:pathEmbeds.navigateTo('/sign_out')">
+              <i class="fa fa-sign-out"></i> LOGOUT
             </a>
           </li>
         </ul>
