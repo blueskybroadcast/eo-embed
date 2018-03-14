@@ -152,27 +152,18 @@ p.copyright {
 }
 
 @media (max-width: 991px) {
-  .navbar-nav {
+  .logo {
     text-align: center;
   }
 
-  .navbar-toggle {
-    color: #fff;
-    margin: 8px auto;
-    float: none;
-    border: none;
-    display: block;
-    &:hover, &:focus {
-      background-color: #363636 !important;
-    }
+  .navbar-nav {
+    text-align: center;
   }
 
   .header-nav {
     text-align: center;
     padding: 15px 0;
-    a.login {
-      display: block;
-    }
+    max-height: 100px;
   }
 
   footer .circle {
@@ -191,5 +182,21 @@ p.copyright {
   h2.content-title {
     font-size: 35px;
     padding: 35px 0;
+  }
+
+  .header-nav a {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .navbar-toggle {
+    color: #fff;
+    margin: 8px auto;
+    float: none;
+    border: none;
+    display: block;
+    &:hover, &:focus {
+      background-color: #363636 !important;
+    }
   }
 }
