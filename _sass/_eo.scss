@@ -76,6 +76,7 @@ h1.logo {
 }
 
 .content-title-background {
+  display: none;
   background: rgba(2,122,201,1);
   background: -moz-linear-gradient(left, rgba(2,122,201,1) 0%, rgba(197,1,132,1) 100%);
   background: -webkit-gradient(left top, right top, color-stop(0%, rgba(2,122,201,1)), color-stop(100%, rgba(197,1,132,1)));
